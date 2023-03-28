@@ -3,7 +3,7 @@
 Analizador léxico para el lenguaje D programado en C, diseñado para la materia de 3º año de la carrera de  Ingeniería Informática de la Universidad de Santiago de Compostela. 
 
 ## Descripción
-El analizador obtiene los lexemas del lenguaje D a través del uso de la herramienta de software *FLEX*, algunos de los lexememas menos comunes no están contemplados en el analizador, como por ejemplo los número en octal o algunos símbolos especiales.
+El analizador obtiene los lexemas del lenguaje D a través del uso de la herramienta de software *FLEX*, algunos de los lexememas menos comunes no están contemplados en el analizador, como por ejemplo los número en octal o algunos símbolos especiales. Cuenta con una pequeá gestión de errores, si encuentra un error al generar un lexema, dice la línea donde el analizador ha detectado el error.
 
 ## Ejecución
 Para la ejecución debes tener el compilador de C, gcc, y flex instalados en tu sistema operativo. Posteriormente, debes ejecuar el siguiente comando en la terminal:
